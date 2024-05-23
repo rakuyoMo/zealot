@@ -967,6 +967,8 @@ en:
       api_not_found: API not found
       goback_title: Go back
       homepage_title: homepage
+      graphql:
+        unauthorized: 用户认证失败
   active_job:
     webhook:
       failures:

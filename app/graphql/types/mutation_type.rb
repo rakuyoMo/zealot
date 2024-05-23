@@ -2,6 +2,10 @@
 
 module Types
   class MutationType < Types::BaseObject
+    description 'All available mutations'
+
+    field :user, mutation: Mutations::UserMutation
+
     # field :test_field, String, null: false,
     #       description: 'An example field added by the generator'
 

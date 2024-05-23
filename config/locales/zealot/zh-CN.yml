@@ -962,6 +962,8 @@ zh-CN:
       api_not_found: 没有这个接口
       goback_title: 上级页面
       homepage_title: 首页
+      graphql:
+        unauthorized: 用户认证失败
   active_job:
     webhook:
       failures:

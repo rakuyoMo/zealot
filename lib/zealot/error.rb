@@ -30,4 +30,12 @@ class Zealot::Error < StandardError
       end
     end
   end
+
+  module Graphql
+    class UnauthorizedError < Zealot::Error
+      def message
+        I18n.t('errors.messages.graphql.unauthorized')
+      end
+    end
+  end
 end

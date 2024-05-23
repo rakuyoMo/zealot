@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class CollaboratorSerializer < ApplicationSerializer
-  attributes :id, :username, :email, :role
+  attributes :id, :username, :email, :role, :owner
 
   def id
     object.user.id
