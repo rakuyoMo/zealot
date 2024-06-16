@@ -3,6 +3,9 @@ import { application } from "./application"
 import GlobalController from "./global_controller"
 application.register("global", GlobalController)
 
+import NotificationController from "./notification_controller"
+application.register("notification", NotificationController)
+
 import ClipboardCenterController from "./clipboard_center_controller"
 application.register("clipboard-center", ClipboardCenterController)
 

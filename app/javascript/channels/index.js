@@ -6,3 +6,4 @@ if (Zealot.isDevelopment) {
 }
 
 import "./notification_channel"
+import "./log_channel"
