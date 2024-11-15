@@ -250,8 +250,8 @@ GEM
       bindata
       faraday (~> 2.0)
       faraday-follow_redirects
-    json-schema (4.3.1)
-      addressable (>= 2.8)
+    json-schema (5.0.1)
+      addressable (~> 2.8)
     jsonapi-renderer (0.2.2)
     jwt (2.8.2)
       base64
@@ -512,10 +512,10 @@ GEM
     rswag-api (2.15.0)
       activesupport (>= 5.2, < 8.0)
       railties (>= 5.2, < 8.0)
-    rswag-specs (2.14.0)
-      activesupport (>= 5.2, < 8.0)
-      json-schema (>= 2.2, < 5.0)
-      railties (>= 5.2, < 8.0)
+    rswag-specs (2.16.0)
+      activesupport (>= 5.2, < 8.1)
+      json-schema (>= 2.2, < 6.0)
+      railties (>= 5.2, < 8.1)
       rspec-core (>= 2.14)
     rswag-ui (2.15.0)
       actionpack (>= 5.2, < 8.0)
